@@ -1,0 +1,666 @@
+<!-- dmx encoding keyvalues2 1 format preset 4 -->
+"DmePresetGroup"
+{
+	"id" "elementid" "2a9c644a-e991-4d70-b494-ed3915addf3b"
+	"name" "string" "Fingers"
+	"presets" "element_array" 
+	[
+		"DmePreset"
+		{
+			"id" "elementid" "64b0ab29-f78d-4dff-9bf1-42dff3eb6c1f"
+			"name" "string" "Default"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "a2466cfb-5f03-4f67-992f-c94b3efa4f81"
+					"name" "string" "bip_thumb_1_R"
+					"valuePosition" "vector3" "-0.0000152588 2.0499801636 -0.0000076294"
+					"valueOrientation" "quaternion" "0.0550432429 -0.0000008344 0.0000005665 0.9984839559"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7bf2afb8-82b4-4881-ae06-e4bfd5fdf1e0"
+					"name" "string" "bip_thumb_2_R"
+					"valuePosition" "vector3" "0.0000324249 1.2914390564 0.0000190735"
+					"valueOrientation" "quaternion" "-0.0378962494 0.0000035768 -0.0000022074 0.9992817044"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5ce75b0f-f133-4ddb-90ea-d04c56eafd5d"
+					"name" "string" "bip_index_0_R"
+					"valuePosition" "vector3" "-0.2376327515 5.3616027832 -1.5056219101"
+					"valueOrientation" "quaternion" "0.1522950381 0.6803680658 -0.1070052981 0.7088409066"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7fc36383-1c19-4a0c-9599-20b5b1f1ea8d"
+					"name" "string" "bip_index_1_R"
+					"valuePosition" "vector3" "0.0000047684 2.7893371582 0.0000171661"
+					"valueOrientation" "quaternion" "0.3441536725 0.0000012833 0.0000000588 0.9389133453"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "00ed81e0-7848-4f3b-a0e6-915b2f0f662e"
+					"name" "string" "bip_index_2_R"
+					"valuePosition" "vector3" "-0.0000019073 1.8047103882 0.0000152588"
+					"valueOrientation" "quaternion" "0.0931213573 0.0000012793 0.0000001572 0.9956547618"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7a948b00-08d0-4ab3-86f6-f8f928eb6c87"
+					"name" "string" "bip_middle_0_R"
+					"valuePosition" "vector3" "-0.1792755127 5.7393932343 0.2111988068"
+					"valueOrientation" "quaternion" "0.19654347 0.7474731803 -0.0770085827 0.6298604608"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8d985f86-ffb2-4479-8614-f3035abfb33e"
+					"name" "string" "bip_middle_1_R"
+					"valuePosition" "vector3" "-0.0000076294 2.8103523254 -0.0000267029"
+					"valueOrientation" "quaternion" "0.2801947594 -0.0000018604 0.0000015504 0.9599431753"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "208863d2-4c12-4f46-b366-8a08e5bc7dce"
+					"name" "string" "bip_middle_2_R"
+					"valuePosition" "vector3" "0.0000019073 2.5002937317 0.0000247955"
+					"valueOrientation" "quaternion" "0.1885546148 0.0000010914 -0.0000004997 0.9820626974"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e93e7a6a-6e2d-4625-b0e4-d8e62395b80e"
+					"name" "string" "bip_ring_0_R"
+					"valuePosition" "vector3" "0.3943557739 5.3523654938 1.8963956833"
+					"valueOrientation" "quaternion" "0.1948892772 0.7590270042 -0.0832290426 0.6156048179"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "cfc194a8-d58d-4c7d-ac5f-58fab0bc8c05"
+					"name" "string" "bip_ring_1_R"
+					"valuePosition" "vector3" "0 2.377281189 0.0000152588"
+					"valueOrientation" "quaternion" "0.2973533273 0.0000006897 -0.0000008422 0.9547675252"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "16765fa1-0f40-4b67-9923-0731effce082"
+					"name" "string" "bip_ring_2_R"
+					"valuePosition" "vector3" "-0.0000009537 2.1659812927 0.0000171661"
+					"valueOrientation" "quaternion" "0.2162611783 0.0000033554 0.0000011779 0.9763356447"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8b42e3bf-956f-42f2-a461-405c7919e889"
+					"name" "string" "bip_pinky_0_R"
+					"valuePosition" "vector3" "0.2279815674 4.50365448 3.2207632065"
+					"valueOrientation" "quaternion" "0.2652592659 0.7316991091 -0.0657311082 0.6244465113"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "12fca7ed-fea5-4096-818c-6690a527b348"
+					"name" "string" "bip_pinky_1_R"
+					"valuePosition" "vector3" "-0.0000032187 2.3397064209 0.0000762939"
+					"valueOrientation" "quaternion" "0.2632375658 0.0000001252 0.0000002325 0.9647310376"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f644b28e-880a-46d1-8d64-5c32c1167f50"
+					"name" "string" "bip_pinky_2_R"
+					"valuePosition" "vector3" "0.0000104904 1.6539993286 -0.0000514984"
+					"valueOrientation" "quaternion" "0.1439466327 -0.0000019558 -0.0000002727 0.9895854592"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "0267c3cb-8a3f-4102-9a13-4c27f70542dd"
+					"name" "string" "bip_thumb_0_L"
+					"valuePosition" "vector3" "-1.8598403931 -2.6483669281 2.2072477341"
+					"valueOrientation" "quaternion" "-0.1064567342 0.0559540913 -0.1738860309 0.977394402"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6d86629d-5f34-4570-8fda-0eafb1afd3cc"
+					"name" "string" "bip_thumb_1_L"
+					"valuePosition" "vector3" "0 -2.0499954224 -0.0000038147"
+					"valueOrientation" "quaternion" "0.0550440624 0.0000003545 0.0000004412 0.9984839559"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2785e0f3-9e6e-47e5-8c4f-603865f525a4"
+					"name" "string" "bip_thumb_2_L"
+					"valuePosition" "vector3" "-0.000005722 -1.2914009094 0.0000076294"
+					"valueOrientation" "quaternion" "-0.0378965214 -0.0000013265 -0.0000022293 0.9992816448"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "76166804-8839-4f0d-85cb-1baa79b6b57b"
+					"name" "string" "bip_index_0_L"
+					"valuePosition" "vector3" "0.2375640869 -5.3616218567 1.5056228638"
+					"valueOrientation" "quaternion" "0.1522978842 0.6803690195 -0.1070088297 0.7088388801"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fb2b14e1-1454-4239-b0cd-b0b194d0f7ad"
+					"name" "string" "bip_index_1_L"
+					"valuePosition" "vector3" "-0.0000038147 -2.789352417 -0.0000019073"
+					"valueOrientation" "quaternion" "0.3441534936 -0.0000012431 -0.0000009668 0.9389134049"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "cd2db4cf-87c9-4119-972b-d5f632613e90"
+					"name" "string" "bip_index_2_L"
+					"valuePosition" "vector3" "0.0000038147 -1.8047065735 0.000005722"
+					"valueOrientation" "quaternion" "0.093121171 -0.0000009046 -0.0000003906 0.9956547618"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "88e71333-dfe6-4c98-a8ae-ae4665d671ac"
+					"name" "string" "bip_middle_0_L"
+					"valuePosition" "vector3" "0.1792297363 -5.7394752502 -0.2112169266"
+					"valueOrientation" "quaternion" "0.1965447664 0.7474716902 -0.0770132989 0.6298613548"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6008e848-da5d-4b44-9585-480b23a24100"
+					"name" "string" "bip_middle_1_L"
+					"valuePosition" "vector3" "0.000005722 -2.8102874756 0.0000076294"
+					"valueOrientation" "quaternion" "0.280195117 0.0000013631 0.0000007745 0.9599430561"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f4918435-dced-4339-b227-5e3b82e53d27"
+					"name" "string" "bip_middle_2_L"
+					"valuePosition" "vector3" "-0.000005722 -2.5003128052 -0.0000038147"
+					"valueOrientation" "quaternion" "0.1885545701 -0.000001037 -0.0000005804 0.9820628166"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "26b8921e-3923-40dc-a549-2133cd16f6e6"
+					"name" "string" "bip_ring_0_L"
+					"valuePosition" "vector3" "-0.3944244385 -5.3524093628 -1.8963985443"
+					"valueOrientation" "quaternion" "0.1948910654 0.7590266466 -0.0832327753 0.615604043"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "80deedf7-7160-4c41-aad7-7bfac4b805d1"
+					"name" "string" "bip_ring_1_L"
+					"valuePosition" "vector3" "-0.0000066757 -2.3772697449 0.0000076294"
+					"valueOrientation" "quaternion" "0.2973541021 -0.0000005619 -0.0000020673 0.9547672868"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5e9d0c9f-c348-453f-9be3-9790b890175d"
+					"name" "string" "bip_ring_2_L"
+					"valuePosition" "vector3" "0.000002861 -2.1659851074 0.000005722"
+					"valueOrientation" "quaternion" "0.2162542343 0.0000034151 0.0000017752 0.9763370752"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ea0b27d1-c26a-401c-8414-309b53729f2f"
+					"name" "string" "bip_pinky_0_L"
+					"valuePosition" "vector3" "-0.2280807495 -4.5036296844 -3.220749855"
+					"valueOrientation" "quaternion" "0.2652618289 0.7316984534 -0.065735817 0.6244456172"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1859ea7b-0d2a-40fb-abf0-5d428897a2ed"
+					"name" "string" "bip_pinky_1_L"
+					"valuePosition" "vector3" "-0.0000015497 -2.3397865295 0"
+					"valueOrientation" "quaternion" "0.2632373273 -0.0000002716 -0.0000007691 0.9647310972"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d939e25d-9e16-4735-9e20-f0719c0d7672"
+					"name" "string" "bip_pinky_2_L"
+					"valuePosition" "vector3" "0 -1.6540336609 0.0000038147"
+					"valueOrientation" "quaternion" "0.1439464241 0.0000019186 -0.0000001643 0.9895854592"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e644f6ee-c219-4062-91e0-f3a2110a7904"
+					"name" "string" "bip_thumb_0_R"
+					"valuePosition" "vector3" "1.8598251343 2.6483154297 -2.2072629929"
+					"valueOrientation" "quaternion" "-0.1064550355 0.0559500083 -0.173882246 0.9773955345"
+				}
+			]
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "09cafcf9-af30-4ae5-a0cb-d6a90cc34855"
+			"name" "string" "Open"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "23cdb3e9-73b1-4bc4-a1c3-7238ee166e59"
+					"name" "string" "bip_thumb_1_R"
+					"valuePosition" "vector3" "-0.0000152588 2.0499801636 -0.0000076294"
+					"valueOrientation" "quaternion" "-0.0686475486 -0.0000008979 0.0000004591 0.9976409674"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "49ae5d86-ab61-400e-b706-5d5707bc5935"
+					"name" "string" "bip_thumb_2_R"
+					"valuePosition" "vector3" "0.0000324249 1.2914390564 0.0000190735"
+					"valueOrientation" "quaternion" "-0.1615208536 0.0000038229 -0.0000017468 0.9868692756"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "44798ac4-03dc-4bce-a38b-6348ddbb31d7"
+					"name" "string" "bip_index_0_R"
+					"valuePosition" "vector3" "-0.2376327515 5.3616027832 -1.5056219101"
+					"valueOrientation" "quaternion" "-0.0192563701 0.6864061356 0.0565488413 0.7247607708"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "048ca4b8-3f1a-40ee-980d-ffc81862def2"
+					"name" "string" "bip_index_1_R"
+					"valuePosition" "vector3" "0.0000047684 2.7893371582 0.0000171661"
+					"valueOrientation" "quaternion" "0.1129004583 0.0000012332 0.0000003599 0.993606329"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "135a91a4-1e42-46d6-bd2a-7dc3131f3f5b"
+					"name" "string" "bip_index_2_R"
+					"valuePosition" "vector3" "-0.0000019073 1.8047103882 0.0000152588"
+					"valueOrientation" "quaternion" "-0.1444321722 0.0000012061 0.0000004546 0.9895147085"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b72884eb-6bb3-4c08-956a-a8347473c648"
+					"name" "string" "bip_middle_0_R"
+					"valuePosition" "vector3" "-0.1792755127 5.7393932343 0.2111988068"
+					"valueOrientation" "quaternion" "0.0423785448 0.7445385456 0.1015309989 0.6584511399"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b1a61908-71f3-4d22-b54b-02634607e0de"
+					"name" "string" "bip_middle_1_R"
+					"valuePosition" "vector3" "-0.0000076294 2.8103523254 -0.0000267029"
+					"valueOrientation" "quaternion" "0.0457854941 -0.0000021737 0.0000010677 0.9989513159"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f81bdae8-718e-4302-b2f2-e13676fd2f6a"
+					"name" "string" "bip_middle_2_R"
+					"valuePosition" "vector3" "0.0000019073 2.5002937317 0.0000247955"
+					"valueOrientation" "quaternion" "-0.0484864637 0.0000011785 -0.0000002281 0.9988238215"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8911cf70-f8ce-4588-9eac-e905ca3034a6"
+					"name" "string" "bip_ring_0_R"
+					"valuePosition" "vector3" "0.3943557739 5.3523654938 1.8963956833"
+					"valueOrientation" "quaternion" "0.0441344678 0.7572336793 0.0982129574 0.644207716"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6568217d-5d0a-42f6-bf8e-65a3dd619f69"
+					"name" "string" "bip_ring_1_R"
+					"valuePosition" "vector3" "0 2.377281189 0.0000152588"
+					"valueOrientation" "quaternion" "0.0636807382 0.000000869 -0.0000006557 0.9979703426"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "99671ace-c9ec-4c61-9a93-29883a33bcad"
+					"name" "string" "bip_ring_2_R"
+					"valuePosition" "vector3" "-0.0000009537 2.1659812927 0.0000171661"
+					"valueOrientation" "quaternion" "-0.0202108026 0.0000029827 0.0000019364 0.9997957349"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d0bb4b23-6f7a-410a-a55a-98fcd992b555"
+					"name" "string" "bip_pinky_0_R"
+					"valuePosition" "vector3" "0.2279815674 4.50365448 3.2207632065"
+					"valueOrientation" "quaternion" "0.11043185 0.7265491486 0.1087685823 0.6694031954"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c6543000-328c-4c50-9541-1983a0a35e16"
+					"name" "string" "bip_pinky_1_R"
+					"valuePosition" "vector3" "-0.0000032187 2.3397064209 0.0000762939"
+					"valueOrientation" "quaternion" "0.0281772632 0.0000000668 0.0000002555 0.9996029139"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "13263c26-1495-41d7-8905-e17f7244a629"
+					"name" "string" "bip_pinky_2_R"
+					"valuePosition" "vector3" "0.0000104904 1.6539993286 -0.0000514984"
+					"valueOrientation" "quaternion" "-0.0936098248 -0.0000018362 -0.0000007264 0.9956089854"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "dbe49c87-6a7f-431f-955b-92d1474fb095"
+					"name" "string" "bip_thumb_0_L"
+					"valuePosition" "vector3" "-1.8598403931 -2.6483669281 2.2072477341"
+					"valueOrientation" "quaternion" "-0.2222688198 0.0762937292 -0.1659712344 0.9577209353"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1423df9a-17ae-4330-b52b-08d4802a3e21"
+					"name" "string" "bip_thumb_1_L"
+					"valuePosition" "vector3" "0 -2.0499954224 -0.0000038147"
+					"valueOrientation" "quaternion" "-0.0645393059 0.0000002993 0.0000004804 0.9979151487"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e27bfd58-9768-4c13-8c1b-e3622a38ebb8"
+					"name" "string" "bip_thumb_2_L"
+					"valuePosition" "vector3" "-0.000005722 -1.2914009094 0.0000076294"
+					"valueOrientation" "quaternion" "-0.1573002338 -0.00000105 -0.0000023721 0.9875508547"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f84ce5d1-6963-44e1-896f-8512e2d956c0"
+					"name" "string" "bip_index_0_L"
+					"valuePosition" "vector3" "0.2375640869 -5.3616218567 1.5056228638"
+					"valueOrientation" "quaternion" "0.0015757384 0.6877487898 0.0368035622 0.7250135541"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4837f559-2591-43e7-88cb-d006befb4962"
+					"name" "string" "bip_index_1_L"
+					"valuePosition" "vector3" "-0.0000038147 -2.789352417 -0.0000019073"
+					"valueOrientation" "quaternion" "0.141398102 -0.0000010149 -0.0000012041 0.9899528027"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d55cdae7-03a8-4c7c-bcbb-c498576107a2"
+					"name" "string" "bip_index_2_L"
+					"valuePosition" "vector3" "0.0000038147 -1.8047065735 0.000005722"
+					"valueOrientation" "quaternion" "-0.1159456223 -0.0000008036 -0.0000005701 0.9932555556"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "571ec772-dcb6-4be3-b911-83a264e2120c"
+					"name" "string" "bip_middle_0_L"
+					"valuePosition" "vector3" "0.1792297363 -5.7394752502 -0.2112169266"
+					"valueOrientation" "quaternion" "0.0612786114 0.7471474409 0.0800951421 0.6569629908"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2e9e4101-15b1-4ea3-9ae4-b59dac22a027"
+					"name" "string" "bip_middle_1_L"
+					"valuePosition" "vector3" "0.000005722 -2.8102874756 0.0000076294"
+					"valueOrientation" "quaternion" "0.0744650885 0.0000011723 0.000001041 0.9972236156"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "75f52766-bc5b-4103-a48a-7dbf091299b5"
+					"name" "string" "bip_middle_2_L"
+					"valuePosition" "vector3" "-0.000005722 -2.5003128052 -0.0000038147"
+					"valueOrientation" "quaternion" "-0.019771792 -0.0000008937 -0.0000007834 0.9998044968"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7f44ba17-dbcd-4817-baf4-04d10ef953e4"
+					"name" "string" "bip_ring_0_L"
+					"valuePosition" "vector3" "-0.3944244385 -5.3524093628 -1.8963985443"
+					"valueOrientation" "quaternion" "0.0626256019 0.7597432137 0.0764146 0.6426733732"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6b4c3736-fa7f-4bb1-b76d-19c9c8e18790"
+					"name" "string" "bip_ring_1_L"
+					"valuePosition" "vector3" "-0.0000066757 -2.3772697449 0.0000076294"
+					"valueOrientation" "quaternion" "0.0923251882 -0.0000001198 -0.000002139 0.99572891"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f454997b-be24-4efc-975b-7a9fe924d032"
+					"name" "string" "bip_ring_2_L"
+					"valuePosition" "vector3" "0.000002861 -2.1659851074 0.000005722"
+					"valueOrientation" "quaternion" "0.0085128015 0.0000029714 0.0000024465 0.9999637604"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "22681b83-9e8a-42d8-a9e0-adf3daa10944"
+					"name" "string" "bip_pinky_0_L"
+					"valuePosition" "vector3" "-0.2280807495 -4.5036296844 -3.220749855"
+					"valueOrientation" "quaternion" "0.1296199262 0.7293742299 0.0878467262 0.665954113"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "26cd913b-6c76-411f-b100-7d07f46d9679"
+					"name" "string" "bip_pinky_1_L"
+					"valuePosition" "vector3" "-0.0000015497 -2.3397865295 0"
+					"valueOrientation" "quaternion" "0.0568822101 -0.0000001058 -0.0000008088 0.9983808994"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "aa680c32-18a1-4d58-9b0c-150d096c9e1e"
+					"name" "string" "bip_pinky_2_L"
+					"valuePosition" "vector3" "0 -1.6540336609 0.0000038147"
+					"valueOrientation" "quaternion" "-0.0649693534 0.0000019108 0.0000002383 0.9978872538"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5fbb67c7-ac3a-4fc0-aaee-bb4cc22a5413"
+					"name" "string" "bip_thumb_0_R"
+					"valuePosition" "vector3" "1.8598251343 2.6483154297 -2.2072629929"
+					"valueOrientation" "quaternion" "-0.2263074219 0.0769890547 -0.1656445265 0.9567756057"
+				}
+			]
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "5335ab16-d7b2-453e-a204-935de77e3400"
+			"name" "string" "Closed"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "058d0783-6031-493e-ab83-917dc540046e"
+					"name" "string" "bip_thumb_1_R"
+					"valuePosition" "vector3" "-0.0000152588 2.0499801636 -0.0000076294"
+					"valueOrientation" "quaternion" "0.4284691513 -0.0000005582 0.0000008399 0.9035564065"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fe22bfd9-ae00-4329-b5a5-a7b39f49eafc"
+					"name" "string" "bip_thumb_2_R"
+					"valuePosition" "vector3" "0.0000324249 1.2914390564 0.0000190735"
+					"valueOrientation" "quaternion" "-0.0624439083 0.00000363 -0.0000021188 0.9980484843"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "aa0a690f-cc9c-42cb-a414-400b8af7e8b1"
+					"name" "string" "bip_index_0_R"
+					"valuePosition" "vector3" "-0.2376327515 5.3616027832 -1.5056219101"
+					"valueOrientation" "quaternion" "0.4901860952 0.5325704813 -0.4367144108 0.5341973305"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "62e00903-530b-41be-a784-c600830e6de8"
+					"name" "string" "bip_index_1_R"
+					"valuePosition" "vector3" "0.0000047684 2.7893371582 0.0000171661"
+					"valueOrientation" "quaternion" "0.7721170187 0.0000011365 -0.0000005989 0.6354803443"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a496d971-9d1f-42f8-b8c4-c676e46e65c1"
+					"name" "string" "bip_index_2_R"
+					"valuePosition" "vector3" "-0.0000019073 1.8047103882 0.0000152588"
+					"valueOrientation" "quaternion" "0.5843549371 0.0000011829 -0.0000005121 0.8114982247"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "eeb1a099-07ab-40cd-9fad-5a91595053a6"
+					"name" "string" "bip_middle_0_R"
+					"valuePosition" "vector3" "-0.1792755127 5.7393932343 0.2111988068"
+					"valueOrientation" "quaternion" "0.4883621335 0.6056264639 -0.4448180199 0.4436845779"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "97b8c889-c940-4522-be02-5264ee71de57"
+					"name" "string" "bip_middle_1_R"
+					"valuePosition" "vector3" "-0.0000076294 2.8103523254 -0.0000267029"
+					"valueOrientation" "quaternion" "0.7276061773 -0.0000008195 0.0000022789 0.6859951615"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b783b78d-96b4-4f52-b996-0b1d89e8f9f9"
+					"name" "string" "bip_middle_2_R"
+					"valuePosition" "vector3" "0.0000019073 2.5002937317 0.0000247955"
+					"valueOrientation" "quaternion" "0.6597746611 0.0000006882 -0.0000009835 0.7514634728"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "19462910-63ec-4fb3-b81a-f47ba6c46e7c"
+					"name" "string" "bip_ring_0_R"
+					"valuePosition" "vector3" "0.3943557739 5.3523654938 1.8963956833"
+					"valueOrientation" "quaternion" "0.4797188044 0.6124408245 -0.4560316205 0.4322282672"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "580490e3-664a-4212-b85a-1394f45337ec"
+					"name" "string" "bip_ring_1_R"
+					"valuePosition" "vector3" "0 2.377281189 0.0000152588"
+					"valueOrientation" "quaternion" "0.7397829294 0.0000001685 -0.0000010755 0.672845602"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "722a96c7-645b-4362-b1aa-d5055895cbec"
+					"name" "string" "bip_ring_2_R"
+					"valuePosition" "vector3" "-0.0000009537 2.1659812927 0.0000171661"
+					"valueOrientation" "quaternion" "0.6807688475 0.0000034899 -0.0000006828 0.7324983478"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b93a823c-204f-4769-b798-fb7f6a978f2c"
+					"name" "string" "bip_pinky_0_R"
+					"valuePosition" "vector3" "0.2279815674 4.50365448 3.2207632065"
+					"valueOrientation" "quaternion" "0.5448809266 0.5977321267 -0.4271070361 0.4042285085"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "41593325-8357-449f-8273-7253b115e447"
+					"name" "string" "bip_pinky_1_R"
+					"valuePosition" "vector3" "-0.0000032187 2.3397064209 0.0000762939"
+					"valueOrientation" "quaternion" "0.7154060006 0.0000002257 0.0000001371 0.6987090111"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f4b6721e-29c1-45a5-9a8d-2c1ca71dbba2"
+					"name" "string" "bip_pinky_2_R"
+					"valuePosition" "vector3" "0.0000104904 1.6539993286 -0.0000514984"
+					"valueOrientation" "quaternion" "0.6251136661 -0.0000018247 0.000000755 0.780533731"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3b2181a2-f8b3-4ecd-8e2f-c624f0eb421b"
+					"name" "string" "bip_thumb_0_L"
+					"valuePosition" "vector3" "-1.8598403931 -2.6483669281 2.2072477341"
+					"valueOrientation" "quaternion" "0.2748893797 -0.0809788778 -0.3610346913 0.8874301314"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "515b2d2a-235b-4066-8df6-b5d4704b3554"
+					"name" "string" "bip_thumb_1_L"
+					"valuePosition" "vector3" "0 -2.0499954224 -0.0000038147"
+					"valueOrientation" "quaternion" "0.3629639149 0.0000004742 0.000000309 0.9318032265"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c106d678-0919-43a7-887a-e39a80da7c48"
+					"name" "string" "bip_thumb_2_L"
+					"valuePosition" "vector3" "-0.000005722 -1.2914009094 0.0000076294"
+					"valueOrientation" "quaternion" "-0.0616002083 -0.0000012732 -0.0000022602 0.9981008768"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d5c2eb11-e99a-4c51-b752-c448628df0ff"
+					"name" "string" "bip_index_0_L"
+					"valuePosition" "vector3" "0.2375640869 -5.3616218567 1.5056228638"
+					"valueOrientation" "quaternion" "0.4662335813 0.5512498617 -0.412889421 0.5552225709"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "866bdc11-9426-42aa-be7c-a30539eddb34"
+					"name" "string" "bip_index_1_L"
+					"valuePosition" "vector3" "-0.0000038147 -2.789352417 -0.0000019073"
+					"valueOrientation" "quaternion" "0.7434384227 -0.000001551 -0.0000002728 0.6688044667"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "921eb3b0-b33a-450a-8fa4-1681b6393155"
+					"name" "string" "bip_index_2_L"
+					"valuePosition" "vector3" "0.0000038147 -1.8047065735 0.000005722"
+					"valueOrientation" "quaternion" "0.5481209159 -0.0000009822 0.000000078 0.836399138"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b45cadcf-f358-4590-96e2-5e097c193ba8"
+					"name" "string" "bip_middle_0_L"
+					"valuePosition" "vector3" "0.1792297363 -5.7394752502 -0.2112169266"
+					"valueOrientation" "quaternion" "0.4683899283 0.6245892644 -0.4177715778 0.4647214711"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7069b6b7-fc20-43e4-b675-68b8f3a51177"
+					"name" "string" "bip_middle_1_L"
+					"valuePosition" "vector3" "0.000005722 -2.8102874756 0.0000076294"
+					"valueOrientation" "quaternion" "0.6967504025 0.0000015671 0.0000000467 0.7173136473"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "eff768f9-89f1-495d-b68a-b5e7e6a17b82"
+					"name" "string" "bip_middle_2_L"
+					"valuePosition" "vector3" "-0.000005722 -2.5003128052 -0.0000038147"
+					"valueOrientation" "quaternion" "0.6261066198 -0.0000011881 -0.0000000278 0.7797374725"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a4942a87-2181-413e-b8aa-3a44e995e49f"
+					"name" "string" "bip_ring_0_L"
+					"valuePosition" "vector3" "-0.3944244385 -5.3524093628 -1.8963985443"
+					"valueOrientation" "quaternion" "0.4602581859 0.6318918467 -0.4286745787 0.45289433"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d2c0156b-12ca-42d8-922f-fa66812e110a"
+					"name" "string" "bip_ring_1_L"
+					"valuePosition" "vector3" "-0.0000066757 -2.3772697449 0.0000076294"
+					"valueOrientation" "quaternion" "0.7094941139 -0.0000014638 -0.0000015642 0.7047113776"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9f077292-95c1-428b-bd4a-3da0ef1f2822"
+					"name" "string" "bip_ring_2_L"
+					"valuePosition" "vector3" "0.000002861 -2.1659851074 0.000005722"
+					"valueOrientation" "quaternion" "0.6479090452 0.0000038489 -0.0000000288 0.7617177367"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a29d0a12-71ee-4aa3-93ed-86a4f50555ed"
+					"name" "string" "bip_pinky_0_L"
+					"valuePosition" "vector3" "-0.2280807495 -4.5036296844 -3.220749855"
+					"valueOrientation" "quaternion" "0.5265887976 0.6159250736 -0.4004250467 0.4277854264"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c2e1a672-748e-40ef-9f5f-6ef9c2a0d26f"
+					"name" "string" "bip_pinky_1_L"
+					"valuePosition" "vector3" "-0.0000015497 -2.3397865295 0"
+					"valueOrientation" "quaternion" "0.6840031743 -0.0000005999 -0.0000005527 0.7294790149"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3a9c1a3a-0a7c-420e-809b-603bc8263b39"
+					"name" "string" "bip_pinky_2_L"
+					"valuePosition" "vector3" "0 -1.6540336609 0.0000038147"
+					"valueOrientation" "quaternion" "0.5902010798 0.0000016188 -0.0000010428 0.8072564006"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fe28ee1b-fe17-40cb-a937-f10301cb94b9"
+					"name" "string" "bip_thumb_0_R"
+					"valuePosition" "vector3" "1.8598251343 2.6483154297 -2.2072629929"
+					"valueOrientation" "quaternion" "0.3096286952 -0.0018202516 -0.2022758722 0.929091692"
+				}
+			]
+		}
+	]
+	"visible" "bool" "1"
+	"readonly" "bool" "0"
+}
+
