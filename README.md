@@ -5,14 +5,14 @@ A source engine rail shooter, heavily inspired by time crisis, the house of the 
 
 ## Features
 
-### Having a 4 player online co-op   
+- Having a 4 player online co-op   
 
-### 7 Weapons
+- 7 Weapons
 
-### Easy tools for map-makers.
+- Easy tools for map-makers.
 
 ## Release date
-Late 2021
+-Late 2021
 
 ## Progress
-10%
+-10%
