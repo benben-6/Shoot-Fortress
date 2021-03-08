@@ -17,6 +17,23 @@
 		"digit_xpos" "50"
 		"digit_ypos" "2"
 	}
+	
+	HudHull
+{
+
+	"fieldName" "HudHull"
+	"visible" "1"
+	"enabled" "1"
+	"xpos" "12"
+	"ypos" "420"
+	"wide" "120"
+	"tall" "10"
+	"text_xpos" "5"
+	"text_ypos" "2"
+	"TextColor" "0 255 0 80"
+	"PaintBackgroundType" "2"
+
+}
 
 	TargetID
 	{
