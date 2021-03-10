@@ -1,8 +1,8 @@
 "GameInfo"
 {
-	game	"My First HL2MP Mod"
-	title	"HALF+LIFE'"
-	title2	"deathmatch mod"
+	game	"Shoot Em Fortress"
+	title	"SHOOT+EM+FORTRESS"
+	title2	"Coop Rail Shooter"
 	type multiplayer_only
 	nomodels 0
 	nohimodel 1
@@ -45,8 +45,8 @@
 			// folder.
 			//
 			// Note that this folder is scanned only when the game is booted.
-			game+mod			hl2mp/custom/*
-			game+mod			hl2/custom/*
+			game+mod			|gameinfo_path|/custom/*
+			game+mod			|gameinfo_path|/custom/*
 
 			// Now search loose files.  We'll set the directory containing the gameinfo.txt file
 			// as the first "mod" search path (after any user customizations).  This is also the one
@@ -58,9 +58,9 @@
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
-			game_lv				hl2/hl2_lv.vpk
-			game+mod			hl2mp/hl2mp_english.vpk
-			game+mod			hl2mp/hl2mp_pak.vpk
+			game_lv				|all_source_engine_paths|/hl2_lv.vpk
+			game+mod			|all_source_engine_paths|/hl2mp_english.vpk
+			game+mod			|all_source_engine_paths|/hl2mp_pak.vpk
 			game				|all_source_engine_paths|hl2/hl2_english.vpk
 			game				|all_source_engine_paths|hl2/hl2_pak.vpk
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
@@ -71,10 +71,10 @@
 
 			// Add the HL2 directory as a game search path.  This is also where where writes
 			// to the "game" path go.
-			game+game_write		hl2mp
+			game+game_write		sef
 
 			// Where the game's binaries are
-			gamebin				hl2mp/bin
+			gamebin				"Shoot em fortress/bin"
 
 			// Last, mount in shared HL2 loose files
 			game				|all_source_engine_paths|hl2mp
