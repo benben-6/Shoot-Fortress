@@ -1,4 +1,4 @@
-![Shoot 'em Fortress](https://github.com/benben-6/Shoot-Fortress/blob/main/poster.png)
+![Shoot 'em Fortress](https://github.com/benben-6/Shoot-Fortress/blob/main/OverFortress.png)
 
 
 # Shoot-Fortress
