@@ -280,6 +280,27 @@ bool CHL2MPRules::IsIntermission( void )
 	return false;
 }
 
+#ifndef CLIENT_DLL 
+void CHalfLife2::InitDefaultAIRelationships(void)
+{
+	int i, j;
+
+	//  Allocate memory for default relationships
+	CBaseCombatCharacter::AllocateDefaultRelationships();
+
+	// --------------------------------------------------------------
+	// First initialize table so we can report missing relationships
+	// --------------------------------------------------------------
+	for (i = 0; i<NUM_AI_CLASSES; i++)
+	{
+		for (j = 0; j<NUM_AI_CLASSES; j++)
+		{
+			// By default all relationships are neutral of priority zero
+			CBaseCombatCharacter::SetDefaultRelationship((Class_T)i, (Class_T)j, D_NU, 0);
+		}
+	}
+#endif
+
 void CHL2MPRules::PlayerKilled( CBasePlayer *pVictim, const CTakeDamageInfo &info )
 {
 #ifndef CLIENT_DLL
@@ -786,7 +807,7 @@ void CHL2MPRules::ClientSettingsChanged( CBasePlayer *pPlayer )
 			return;
 		}
 
-		if ( HL2MPRules()->IsTeamplay() == false )
+		if ( HL2MPRules()->IsTeamplay() == true )
 		{
 			pHL2Player->SetPlayerModel();
 
