@@ -1,0 +1,94 @@
+﻿Build started 10-03-2021 21:11:58.
+     1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\game\server\server_hl2mp.vcxproj" on node 3 (Build target(s)).
+     1>PreBuildEvent:
+         if EXIST ..\..\..\game\mod_hl2mp\bin\.\server.dll for /f "delims=" %%A in ('attrib "..\..\..\game\mod_hl2mp\bin\.\server.dll"') do set valveTmpIsReadOnly="%%A"
+         set valveTmpIsReadOnlyLetter=%valveTmpIsReadOnly:~6,1%
+         if "%valveTmpIsReadOnlyLetter%"=="R" del /q "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\game\server\Debug_mod_hl2mp\"server.dll
+         if exist "..\..\devtools\bin\vpc.exe" "..\..\devtools\bin\vpc.exe" -crc2 "server_hl2mp.vcxproj"
+         if ERRORLEVEL 1 exit /b 1
+         
+         :VCEnd
+       CustomBuild:
+         Running VPC CRC Check - server_hl2mp.vpc
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\..\game\server\generated_proto_mod_hl2mp /I"..\..\thirdparty\protobuf-2.3.0\src" /I.\ /I..\..\game\shared /I..\..\utils\common /I..\..\game\shared\econ /I..\..\game\server\NextBot /I..\..\game\shared\hl2 /I.\hl2 /I.\hl2mp /I..\..\game\shared\hl2mp /ZI /nologo /W4 /WX /MP /Od /Oy- /D VPC /D RAD_TELEMETRY_DISABLED /D _HAS_ITERATOR_DEBUGGING=0 /D WIN32 /D _WIN32 /D _DEBUG /D DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _ALLOW_RUNTIME_LIBRARY_MISMATCH /D _ALLOW_ITERATOR_DEBUG_LEVEL_MISMATCH /D _ALLOW_MSC_VER_MISMATCH /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D COMPILER_MSVC32 /D COMPILER_MSVC32 /D COMPILER_MSVC /D _DLL_EXT=.dll /D DLLNAME=server /D BINK_VIDEO /D AVI_VIDEO /D WMV_VIDEO /D DEV_BUILD /D FRAME_POINTER_OMISSION_DISABLED /D GAME_DLL /D VECTOR /D VERSION_SAFE_STEAM_API_INTERFACES /D PROTECTED_THINGS_ENABLE /D sprintf=use_Q_snprintf_instead_of_sprintf /D strncpy=use_Q_strncpy_instead /D _snprintf=use_Q_snprintf_instead /D fopen=dont_use_fopen /D USE_NAV_MESH /D HL2MP /D HL2_DLL /D _EXTERNAL_DLL_EXT=.dll /D VPCGAMECAPS=HL2MP /D "PROJECTDIR=C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\game\server" /D _DLL_EXT=.dll /D VPCGAME=hl2mp /D SOURCE1=1 /GF /Gm- /MTd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /Yu"cbase.h" /Fp".\Debug_mod_hl2mp\server.pch" /Fo".\Debug_mod_hl2mp\/" /Fd".\Debug_mod_hl2mp\/vc120.pdb" /Gd /TP /wd4316 /analyze- /FC /errorReport:prompt /Zm200 /Gw /Zc:inline ..\..\game\shared\hl2mp\hl2mp_gamerules.cpp
+         hl2mp_gamerules.cpp
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(284): error C2653: 'CHalfLife2' : is not a class or namespace name
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(305): error C2601: 'CHL2MPRules::PlayerKilled' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(315): error C2601: 'CHL2MPRules::Think' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(401): error C2601: 'CHL2MPRules::GoToIntermission' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(425): error C2601: 'CHL2MPRules::CheckGameOver' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(452): error C2601: 'CHL2MPRules::FlWeaponTryRespawn' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(471): error C2601: 'CHL2MPRules::VecWeaponRespawnSpot' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(487): error C2601: 'IsManagedObjectAnItem' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(492): error C2601: 'IsManagedObjectAWeapon' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(497): error C2601: 'GetObjectsOriginalParameters' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(525): error C2601: 'CHL2MPRules::ManageObjectRelocation' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(580): error C2601: 'CHL2MPRules::AddLevelDesignerPlacedObject' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(591): error C2601: 'CHL2MPRules::RemoveLevelDesignerPlacedObject' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(603): error C2601: 'CHL2MPRules::VecItemRespawnSpot' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(611): error C2601: 'CHL2MPRules::VecItemRespawnAngles' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(619): error C2601: 'CHL2MPRules::FlItemRespawnTime' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(629): error C2601: 'CHL2MPRules::CanHavePlayerItem' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(646): error C2601: 'CHL2MPRules::WeaponShouldRespawn' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(661): error C2601: 'CHL2MPRules::ClientDisconnected' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(685): error C2601: 'CHL2MPRules::DeathNotice' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(781): error C2601: 'CHL2MPRules::ClientSettingsChanged' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(844): error C2601: 'CHL2MPRules::PlayerRelationship' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(861): error C2601: 'CHL2MPRules::GetGameDescription' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(869): error C2601: 'CHL2MPRules::IsConnectedUserInfoChangeAllowed' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(874): error C2601: 'CHL2MPRules::GetMapRemainingTime' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(890): error C2601: 'CHL2MPRules::Precache' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(895): error C2601: 'CHL2MPRules::ShouldCollide' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(913): error C2601: 'CHL2MPRules::ClientCommand' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(940): error C2601: 'GetAmmoDef' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(978): error C2601: 'Bot_f' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(1001): error C2601: 'CHL2MPRules::FShouldSwitchWeapon' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(1020): error C2601: 'CHL2MPRules::RestartGame' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(1084): error C2601: 'CHL2MPRules::CleanUpMap' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(1181): error C2601: 'CHL2MPRules::CheckChatForReadySignal' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(1192): error C2601: 'CHL2MPRules::CheckRestartGame' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(1240): error C2601: 'CHL2MPRules::CheckAllPlayersReady' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(1257): error C2601: 'CHL2MPRules::GetChatFormat' : local function definitions are illegal
+                 c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285): this line contains a '{' which has not yet been matched
+     1>c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(1302): fatal error C1075: end of file found before the left brace '{' at 'c:\users\benbl\onedrive\documentos\github\shoot-fortress\shoot em fortress\src\game\shared\hl2mp\hl2mp_gamerules.cpp(285)' was matched
+     1>Done Building Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\game\server\server_hl2mp.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.90
