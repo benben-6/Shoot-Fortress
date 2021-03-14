@@ -1,34 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: 
-//
-//=============================================================================//
-
-#include "cbase.h"
-#include "bone_accessor.h"
-
-
-#if defined( CLIENT_DLL ) && defined( _DEBUG )
-
-	void CBoneAccessor::SanityCheckBone( int iBone, bool bReadable ) const
-	{
-		if ( m_pAnimating )
-		{
-			CStudioHdr *pHdr = m_pAnimating->GetModelPtr();
-			if ( pHdr )
-			{
-				mstudiobone_t *pBone = pHdr->pBone( iBone );
-				if ( bReadable )
-				{
-					AssertOnce( pBone->flags & m_ReadableBones );
-				}
-				else
-				{
-					AssertOnce( pBone->flags & m_WritableBones );
-				}
-			}
-		}
-	}
-
-#endif
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f35fd9398fc5e7a5c01654df805baa60589895f8cbd84ea194fb87ada500377
+size 707

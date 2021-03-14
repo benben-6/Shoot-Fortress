@@ -1,11 +1,3 @@
-#include "BaseVSShader.h"
-
-// This one isn't supported on dx8
-DEFINE_FALLBACK_SHADER( SDK_DepthWrite, Wireframe )
-
-DEFINE_FALLBACK_SHADER( SDK_EyeRefract, Eyes_dx8 )
-DEFINE_FALLBACK_SHADER( SDK_VolumeClouds, UnlitGeneric_DX8 )
-
-// FIXME: These aren't supported on dx8, but need to be.
-DEFINE_FALLBACK_SHADER( SDK_EyeGlint, EyeGlint )
-DEFINE_FALLBACK_SHADER( SDK_AfterShock, AfterShock )
+version https://git-lfs.github.com/spec/v1
+oid sha256:a25d48b1d11ffd0902340c3baf1d13c58c31022b6e2c208540278cd40f40dab9
+size 398

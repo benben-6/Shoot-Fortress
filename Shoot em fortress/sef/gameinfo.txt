@@ -6,13 +6,14 @@
 	type multiplayer_only
 	nomodels 0
 	nohimodel 1
-	nocrosshair 1
+	nocrosshair 0
 	hidden_maps
+        icon			"resource/game"
 	{
 		"test_speakers"		1
 		"test_hardware"		1
 	}
-	supportsvr	1
+	supportsvr	0
 
 
 	FileSystem

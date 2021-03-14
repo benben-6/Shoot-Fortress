@@ -464,6 +464,7 @@
     <ClInclude Include="hud_closecaption.h" />
     <ClInclude Include="hud_crosshair.h" />
     <ClInclude Include="hud_element_helper.h" />
+    <ClInclude Include="hud_hull.h" />
     <ClInclude Include="hud_lcd.h" />
     <ClInclude Include="hud_macros.h" />
     <ClInclude Include="hud_numericdisplay.h" />
@@ -1070,6 +1071,7 @@
     <ClCompile Include="hl2\hud_filmdemo.cpp" />
     <ClCompile Include="hl2\hud_hdrdemo.cpp" />
     <ClCompile Include="hud_hintdisplay.cpp" />
+    <ClCompile Include="..\..\game\client\hud_hull.cpp" />
     <ClCompile Include="hud_lcd.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>

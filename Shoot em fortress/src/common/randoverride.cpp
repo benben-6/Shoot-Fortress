@@ -1,27 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose:
-//
-//=============================================================================//
-#if !defined(_STATIC_LINKED) || defined(_SHARED_LIB)
-
-#include "stdlib.h"
-#include "vstdlib/random.h"
-
-// memdbgon must be the last include file in a .cpp file!!!
-#include "tier0/memdbgon.h"
-
-#ifdef GNUC
-#define __cdecl 
-#endif
-
-void __cdecl srand(unsigned int)
-{
-}
-
-int __cdecl rand()
-{
-	return RandomInt( 0, VALVE_RAND_MAX );
-}
-
-#endif // !_STATIC_LINKED || _SHARED_LIB
+version https://git-lfs.github.com/spec/v1
+oid sha256:8dfa03b7ed3557b18acafb6cf5173a6bac1a0c7c54d375f9e346f92dba896170
+size 576

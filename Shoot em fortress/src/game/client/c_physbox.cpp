@@ -1,35 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: 
-//
-// $NoKeywords: $
-//=============================================================================//
-#include "cbase.h"
-#include "c_physbox.h"
-
-// memdbgon must be the last include file in a .cpp file!!!
-#include "tier0/memdbgon.h"
-
-IMPLEMENT_CLIENTCLASS_DT(C_PhysBox, DT_PhysBox, CPhysBox)
-	RecvPropFloat(RECVINFO(m_mass), 0), // Test..
-END_RECV_TABLE()
-
-
-C_PhysBox::C_PhysBox()
-{
-}
-
-//-----------------------------------------------------------------------------
-// Should this object cast shadows?
-//-----------------------------------------------------------------------------
-ShadowType_t C_PhysBox::ShadowCastType()
-{
-	if (IsEffectActive(EF_NODRAW | EF_NOSHADOW))
-		return SHADOWS_NONE;
-	return SHADOWS_RENDER_TO_TEXTURE;
-}
-
-C_PhysBox::~C_PhysBox()
-{
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:861176fc464c22f9ea2ca72901657a2648b0d2c4fce988b0c11f231924db1e6e
+size 890

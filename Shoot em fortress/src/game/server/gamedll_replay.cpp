@@ -1,23 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-#include "cbase.h"
-
-#if defined( REPLAY_ENABLED )
-
-#include "replay/iserverreplay.h"
-#include "replay_gamestats_shared.h"
-
-//----------------------------------------------------------------------------------------
-
-class CServerReplayImp : public IServerReplay
-{
-public:
-	virtual void UploadOgsData( KeyValues *pData, bool bIncludeTimeField )
-	{
-		GetReplayGameStatsHelper().UploadError( pData, bIncludeTimeField );
-	}
-};
-
-static CServerReplayImp s_ServerReplayImp;
-EXPOSE_SINGLE_INTERFACE_GLOBALVAR( CServerReplayImp, IServerReplay, SERVER_REPLAY_INTERFACE_VERSION, s_ServerReplayImp );
-
-#endif	// #if defined( REPLAY_ENABLED )
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ca1da3958e36941a0dabb31520e916b9c33445613cfb3b8f53ecf3b0025c912
+size 727

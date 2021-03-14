@@ -1,4 +1,4 @@
-﻿Build started 10-03-2021 20:57:24.
+﻿Build started 13-03-2021 11:11:31.
      1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vtfdiff\vtfdiff.vcxproj" on node 4 (Build target(s)).
      1>PreBuildEvent:
          if EXIST ..\..\..\game\bin\.\vtfdiff.exe for /f "delims=" %%A in ('attrib "..\..\..\game\bin\.\vtfdiff.exe"') do set valveTmpIsReadOnly="%%A"
@@ -9,27 +9,8 @@
          
          :VCEnd
        CustomBuild:
-         Compiling pointeroverride.asm
-         Microsoft (R) Macro Assembler Version 12.00.40629.0
-         Copyright (C) Microsoft Corporation.  All rights reserved.
-         
-          Assembling: C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\public\tier0\pointeroverride.asm
          Running VPC CRC Check - vtfdiff.vpc
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /ZI /nologo /W4 /WX /MP /Od /Oy- /D VPC /D RAD_TELEMETRY_DISABLED /D _HAS_ITERATOR_DEBUGGING=0 /D WIN32 /D _WIN32 /D _DEBUG /D DEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _ALLOW_RUNTIME_LIBRARY_MISMATCH /D _ALLOW_ITERATOR_DEBUG_LEVEL_MISMATCH /D _ALLOW_MSC_VER_MISMATCH /D _USING_V110_SDK71_ /D _MBCS /D COMPILER_MSVC32 /D COMPILER_MSVC32 /D COMPILER_MSVC /D EXENAME=vtfdiff /D _DLL_EXT=.dll /D DEV_BUILD /D FRAME_POINTER_OMISSION_DISABLED /D _EXTERNAL_DLL_EXT=.dll /D VPCGAMECAPS=HL2MP /D "PROJECTDIR=C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vtfdiff" /D _DLL_EXT=.dll /D VPCGAME=hl2mp /D SOURCE1=1 /GF /Gm- /MTd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Debug\.\/" /Fd".\Debug\.\/vc120.pdb" /Gd /TP /wd4316 /analyze- /FC /errorReport:prompt  /Gw /Zc:inline ..\..\public\tier0\memoverride.cpp vtfdiff.cpp
-         memoverride.cpp
-         vtfdiff.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\.\\vtfdiff.exe" /INCREMENTAL /NOLOGO shell32.lib user32.lib advapi32.lib gdi32.lib comdlg32.lib ole32.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmt /NODEFAULTLIB:libcpmt /NODEFAULTLIB:libcpmt1 /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\.\/vtfdiff.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:".\Debug\.\vtfdiff.lib" /MACHINE:X86 /SAFESEH:NO /NXCOMPAT /ignore:4221 .\Debug\.\\pointeroverride.obj
-         .\Debug\.\/memoverride.obj
-         .\Debug\.\/vtfdiff.obj
-         ..\..\lib\public\bitmap.lib
-         ..\..\lib\public\mathlib.lib
-         ..\..\lib\public\tier0.lib
-         ..\..\lib\public\tier1.lib
-         ..\..\lib\public\tier2.lib
-         ..\..\lib\public\vstdlib.lib
-         ..\..\lib\public\vtf.lib
          vtfdiff.vcxproj -> C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vtfdiff\.\Debug\.\vtfdiff.exe
        PostBuildEvent:
          copy "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vtfdiff\Debug\"vtfdiff.exe ..\..\..\game\bin\.\vtfdiff.exe >nul
@@ -49,4 +30,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:10.81
+Time Elapsed 00:00:01.06

@@ -1,5 +1,5 @@
-﻿Build started 10-03-2021 21:11:53.
-     1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\raytrace\raytrace.vcxproj" on node 4 (Build target(s)).
+﻿Build started 13-03-2021 12:00:27.
+     1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\raytrace\raytrace.vcxproj" on node 5 (Build target(s)).
      1>PreBuildEvent:
          if EXIST ..\lib\public\.\raytrace.lib ( for /f "delims=" %%A in ('attrib "..\lib\public\.\raytrace.lib"') do set valveTmpIsReadOnly="%%A"
          ) else ( if not EXIST ..\lib\public\. mkdir ..\lib\public\. )
@@ -21,4 +21,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.30
+Time Elapsed 00:00:05.57

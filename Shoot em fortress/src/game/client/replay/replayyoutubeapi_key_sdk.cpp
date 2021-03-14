@@ -1,16 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose:
-//
-//=============================================================================//
-
-#include "cbase.h"
-
-
-void GetYouTubeAPIKey( const char *pGameDir, bool bOnSteamPublic, const char **ppSource, const char **ppDeveloperTag, const char **ppDeveloperKey )
-{
-	// Put your YouTube Developer key here if you're going to upload videos to YouTube
-	*ppSource = "your Mod Name";
-	*ppDeveloperTag = "Your mod tag";
-	*ppDeveloperKey = "Your mod's developer key";
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6e948f9fc2d71533c7b9c32b18686e3ee2363f7065333aaaa54edf0499b542b
+size 563

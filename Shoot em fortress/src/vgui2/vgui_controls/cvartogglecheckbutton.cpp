@@ -1,25 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: 
-//
-// $NoKeywords: $
-//=============================================================================//
-
-#include "tier1/KeyValues.h"
-
-#include <vgui/ISurface.h>
-#include <vgui/IScheme.h>
-#include <vgui_controls/cvartogglecheckbutton.h>
-
-// memdbgon must be the last include file in a .cpp file!!!
-#include <tier0/memdbgon.h>
-
-using namespace vgui;
-
-vgui::Panel *Create_CvarToggleCheckButton()
-{
-	return new CvarToggleCheckButton< ConVarRef >( NULL, NULL );
-}
-
-DECLARE_BUILD_FACTORY_CUSTOM_ALIAS( CvarToggleCheckButton<ConVarRef>, CvarToggleCheckButton, Create_CvarToggleCheckButton );
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:92e865539f9766145aa3a6c5cdfc1697d5cd4e170ef07c74d57375760398c5bb
+size 704

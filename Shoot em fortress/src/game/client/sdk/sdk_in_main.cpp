@@ -1,23 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: TF2 specific input handling
-//
-// $NoKeywords: $
-//=============================================================================//
-#include "cbase.h"
-#include "kbutton.h"
-#include "input.h"
-
-//-----------------------------------------------------------------------------
-// Purpose: TF Input interface
-//-----------------------------------------------------------------------------
-class CSDKInput : public CInput
-{
-public:
-};
-
-static CSDKInput g_Input;
-
-// Expose this interface
-IInput *input = ( IInput * )&g_Input;
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0155f8835379736ef544c89555f72d6aa7153366db5f3153ef831bb4142eba5
+size 634

@@ -1,5 +1,5 @@
-﻿Build started 10-03-2021 20:51:56.
-     1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\fgdlib\fgdlib.vcxproj" on node 4 (Build target(s)).
+﻿Build started 13-03-2021 11:10:33.
+     1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\fgdlib\fgdlib.vcxproj" on node 2 (Build target(s)).
      1>PreBuildEvent:
          if EXIST ..\lib\public\.\fgdlib.lib ( for /f "delims=" %%A in ('attrib "..\lib\public\.\fgdlib.lib"') do set valveTmpIsReadOnly="%%A"
          ) else ( if not EXIST ..\lib\public\. mkdir ..\lib\public\. )
@@ -15,22 +15,10 @@
          :VCEnd
        CustomBuild:
          Running VPC CRC Check - fgdlib.vpc
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\common /I..\public /I..\public\tier0 /I..\public\tier1 /I..\utils\common /ZI /nologo /W4 /WX /MP /Od /Oy- /D VPC /D RAD_TELEMETRY_DISABLED /D _HAS_ITERATOR_DEBUGGING=0 /D WIN32 /D _WIN32 /D _DEBUG /D DEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _ALLOW_RUNTIME_LIBRARY_MISMATCH /D _ALLOW_ITERATOR_DEBUG_LEVEL_MISMATCH /D _ALLOW_MSC_VER_MISMATCH /D _USING_V110_SDK71_ /D _MBCS /D COMPILER_MSVC32 /D COMPILER_MSVC32 /D COMPILER_MSVC /D _DLL_EXT=.dll /D LIBNAME=fgdlib /D BINK_VIDEO /D AVI_VIDEO /D WMV_VIDEO /D DEV_BUILD /D FRAME_POINTER_OMISSION_DISABLED /D _EXTERNAL_DLL_EXT=.dll /D VPCGAMECAPS=HL2MP /D "PROJECTDIR=C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\fgdlib" /D _DLL_EXT=.dll /D SOURCE1=1 /D VPCGAME=hl2mp /GF /Gm- /MTd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Debug\.\/" /Fd".\Debug\.\/vc120.pdb" /Gd /TP /wd4316 /analyze- /FC /errorReport:prompt  /Gw /Zc:inline gamedata.cpp gdclass.cpp gdvar.cpp inputoutput.cpp wckeyvalues.cpp
-         gamedata.cpp
-         gdclass.cpp
-         gdvar.cpp
-         inputoutput.cpp
-         wckeyvalues.cpp
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\public\.\fgdlib.lib" /NOLOGO  /ignore:4221 .\Debug\.\/gamedata.obj
-         .\Debug\.\/gdclass.obj
-         .\Debug\.\/gdvar.obj
-         .\Debug\.\/inputoutput.obj
-         .\Debug\.\/wckeyvalues.obj
          fgdlib.vcxproj -> C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\fgdlib\..\lib\public\.\fgdlib.lib
      1>Done Building Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\fgdlib\fgdlib.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:17.73
+Time Elapsed 00:00:06.64

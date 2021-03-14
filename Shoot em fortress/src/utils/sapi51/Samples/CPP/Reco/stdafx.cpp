@@ -1,7 +1,3 @@
-// stdafx.cpp : source file that includes just the standard includes
-//	Reco.pch will be the pre-compiled header
-//	stdafx.obj will contain the pre-compiled type information
-//Copyright (c) Microsoft Corporation. All rights reserved.
-
-#include "stdafx.h"
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:de8c8dfe373d47b6d4888ae5234caf7870ed30ae3593bb7da59ca51adf5d507d
+size 256

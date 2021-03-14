@@ -1,9 +1,3 @@
-// stdafx.cpp : source file that includes just the standard includes
-//	mkvoice.pch will be the pre-compiled header
-//	stdafx.obj will contain the pre-compiled type information
-//Copyright (c) Microsoft Corporation. All rights reserved.
-
-#include "stdafx.h"
-
-// TODO: reference any additional headers you need in STDAFX.H
-// and not in this file
+version https://git-lfs.github.com/spec/v1
+oid sha256:10b19fdab7646557a8320d968660a1ba2748b344552827c51ffeedfd875d569e
+size 346

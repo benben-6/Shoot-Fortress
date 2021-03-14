@@ -1,30 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: 
-//
-//=====================================================================================//
-
-#include <halton.h>
-
-HaltonSequenceGenerator_t::HaltonSequenceGenerator_t(int b)
-{
-	base=b;
-	fbase=(float) b;
-	seed=1;
-
-}
-
-float HaltonSequenceGenerator_t::GetElement(int elem)
-{
-	int tmpseed=seed;
-	float ret=0.0;
-	float base_inv=1.0/fbase;
-	while(tmpseed)
-	{
-		int dig=tmpseed % base;
-		ret+=((float) dig)*base_inv;
-		base_inv/=fbase;
-		tmpseed/=base;
-	}
-	return ret;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f66d52d227746610ce1ea20a4456d017b494cfa89db2bf409b56c811b9122261
+size 588

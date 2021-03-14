@@ -1,32 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: 
-//
-// $NoKeywords: $
-//
-//=============================================================================//
-
-#include "vbsp.h"
-
-Vector draw_mins, draw_maxs;
-
-void Draw_ClearWindow (void)
-{
-}
-
-//============================================================
-
-#define	GLSERV_PORT	25001
-
-
-void GLS_BeginScene (void)
-{
-}
-
-void GLS_Winding (winding_t *w, int code)
-{
-}
-
-void GLS_EndScene (void)
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:24973328292907a27ef0d6bbf6dc226661f76425bfab08f806dbcc18980c3335
+size 515

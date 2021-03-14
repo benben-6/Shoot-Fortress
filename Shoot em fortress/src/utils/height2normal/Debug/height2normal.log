@@ -1,5 +1,5 @@
-﻿Build started 10-03-2021 20:53:29.
-     1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\height2normal\height2normal.vcxproj" on node 2 (Build target(s)).
+﻿Build started 13-03-2021 11:10:51.
+     1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\height2normal\height2normal.vcxproj" on node 3 (Build target(s)).
      1>PreBuildEvent:
          if EXIST ..\..\..\game\bin\.\height2normal.exe for /f "delims=" %%A in ('attrib "..\..\..\game\bin\.\height2normal.exe"') do set valveTmpIsReadOnly="%%A"
          set valveTmpIsReadOnlyLetter=%valveTmpIsReadOnly:~6,1%
@@ -9,15 +9,7 @@
          
          :VCEnd
        CustomBuild:
-         Microsoft (R) Macro Assembler Version 12.00.40629.0
-         Copyright (C) Microsoft Corporation.  All rights reserved.
-         
-         Compiling pointeroverride.asm
-          Assembling: C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\public\tier0\pointeroverride.asm
          Running VPC CRC Check - height2normal.vpc
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\common /ZI /nologo /W4 /WX /MP /Od /Oy- /D _HAS_ITERATOR_DEBUGGING=0 /D _WIN32 /D _CONSOLE /D _ALLOW_RUNTIME_LIBRARY_MISMATCH /D _ALLOW_ITERATOR_DEBUG_LEVEL_MISMATCH /D _ALLOW_MSC_VER_MISMATCH /D _USING_V110_SDK71_ /D _MBCS /D _EXTERNAL_DLL_EXT=.dll /D VPCGAMECAPS=HL2MP /D "PROJECTDIR=C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\height2normal" /D _DLL_EXT=.dll /D SOURCE1=1 /D VPCGAME=hl2mp /GF /Gm- /MTd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Debug\.\/" /Fd".\Debug\.\/vc120.pdb" /Gd /TP /wd4316 /analyze- /FC /errorReport:prompt  /Gw /Zc:inline height2normal.cpp
-         height2normal.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\.\\height2normal.exe" /INCREMENTAL /NOLOGO shell32.lib user32.lib advapi32.lib gdi32.lib comdlg32.lib ole32.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmt /NODEFAULTLIB:libcpmt /NODEFAULTLIB:libcpmt1 /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\.\/height2normal.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:".\Debug\.\height2normal.lib" /MACHINE:X86 /SAFESEH:NO /NXCOMPAT /ignore:4221 .\Debug\.\\pointeroverride.obj
          .\Debug\.\/height2normal.obj
@@ -27,6 +19,7 @@
          ..\..\lib\public\tier1.lib
          ..\..\lib\public\tier2.lib
          ..\..\lib\public\vstdlib.lib
+         LINK : .\Debug\.\\height2normal.exe not found or not built by the last incremental link; performing full link
             Creating library .\Debug\.\height2normal.lib and object .\Debug\.\height2normal.exp
          height2normal.vcxproj -> C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\height2normal\.\Debug\.\height2normal.exe
        PostBuildEvent:
@@ -62,4 +55,4 @@ C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targe
 
 Build FAILED.
 
-Time Elapsed 00:00:10.39
+Time Elapsed 00:00:07.46

@@ -1,4 +1,4 @@
-﻿Build started 10-03-2021 20:53:29.
+﻿Build started 13-03-2021 11:10:50.
      1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\motionmapper\motionmapper.vcxproj" on node 4 (Build target(s)).
      1>PreBuildEvent:
          if EXIST ..\..\..\game\bin\.\motionmapper.exe for /f "delims=" %%A in ('attrib "..\..\..\game\bin\.\motionmapper.exe"') do set valveTmpIsReadOnly="%%A"
@@ -9,37 +9,8 @@
          
          :VCEnd
        CustomBuild:
-         Compiling pointeroverride.asm
-          Assembling: C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\public\tier0\pointeroverride.asm
-         Microsoft (R) Macro Assembler Version 12.00.40629.0
-         Copyright (C) Microsoft Corporation.  All rights reserved.
-         
          Running VPC CRC Check - motionmapper.vpc
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\common /I..\nvtristriplib /I..\..\Game_Shared /ZI /nologo /W4 /WX /MP /Od /Oy- /D VPC /D RAD_TELEMETRY_DISABLED /D _HAS_ITERATOR_DEBUGGING=0 /D WIN32 /D _WIN32 /D _DEBUG /D DEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _ALLOW_RUNTIME_LIBRARY_MISMATCH /D _ALLOW_ITERATOR_DEBUG_LEVEL_MISMATCH /D _ALLOW_MSC_VER_MISMATCH /D _USING_V110_SDK71_ /D _MBCS /D COMPILER_MSVC32 /D COMPILER_MSVC32 /D COMPILER_MSVC /D EXENAME=motionmapper /D _DLL_EXT=.dll /D DEV_BUILD /D FRAME_POINTER_OMISSION_DISABLED /D PROTECTED_THINGS_DISABLE /D _EXTERNAL_DLL_EXT=.dll /D VPCGAMECAPS=HL2MP /D "PROJECTDIR=C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\motionmapper" /D _DLL_EXT=.dll /D VPCGAME=hl2mp /D SOURCE1=1 /GF /Gm- /MTd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Debug\.\/" /Fd".\Debug\.\/vc120.pdb" /Gd /TP /wd4316 /analyze- /FC /errorReport:prompt  /Gw /Zc:inline ..\common\cmdlib.cpp ..\..\public\filesystem_helpers.cpp ..\..\public\filesystem_init.cpp ..\common\filesystem_tools.cpp ..\..\public\tier0\memoverride.cpp motionmapper.cpp ..\common\scriplib.cpp
-         cmdlib.cpp
-         filesystem_helpers.cpp
-         filesystem_init.cpp
-         filesystem_tools.cpp
-         memoverride.cpp
-         motionmapper.cpp
-         scriplib.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\.\\motionmapper.exe" /INCREMENTAL /NOLOGO shell32.lib user32.lib advapi32.lib gdi32.lib comdlg32.lib ole32.lib winmm.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmt /NODEFAULTLIB:libcpmt /NODEFAULTLIB:libcpmt1 /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\.\/motionmapper.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:".\Debug\.\motionmapper.lib" /MACHINE:X86 /SAFESEH:NO /NXCOMPAT /ignore:4221 .\Debug\.\\pointeroverride.obj
-         .\Debug\.\/cmdlib.obj
-         .\Debug\.\/filesystem_helpers.obj
-         .\Debug\.\/filesystem_init.obj
-         .\Debug\.\/filesystem_tools.obj
-         .\Debug\.\/memoverride.obj
-         .\Debug\.\/motionmapper.obj
-         .\Debug\.\/scriplib.obj
-         ..\..\lib\public\mathlib.lib
-         ..\..\lib\public\nvtristrip.lib
-         ..\..\lib\public\tier0.lib
-         ..\..\lib\public\tier1.lib
-         ..\..\lib\public\tier2.lib
-         ..\..\lib\public\vstdlib.lib
-            Creating library .\Debug\.\motionmapper.lib and object .\Debug\.\motionmapper.exp
          motionmapper.vcxproj -> C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\motionmapper\.\Debug\.\motionmapper.exe
        PostBuildEvent:
          copy "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\motionmapper\Debug\"motionmapper.exe ..\..\..\game\bin\.\motionmapper.exe >nul
@@ -55,8 +26,23 @@
          :BuildEventOK
          
          :VCEnd
-     1>Done Building Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\motionmapper\motionmapper.vcxproj" (Build target(s)).
+         El sistema no puede encontrar la ruta especificada.
+         *** ERROR! PostBuildStep FAILED for Motionmapper! EXE or DLL is probably running. ***
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: The command "copy "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\motionmapper\Debug\"motionmapper.exe ..\..\..\game\bin\.\motionmapper.exe >nul
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: if ERRORLEVEL 1 goto BuildEventFailed
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: if exist "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\motionmapper\Debug\"motionmapper.map copy "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\motionmapper\Debug\"motionmapper.map ..\..\..\game\bin\.\motionmapper.map >nul
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: copy "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\motionmapper\Debug\"motionmapper.pdb ..\..\..\game\bin\.\motionmapper.pdb >nul
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: if ERRORLEVEL 1 goto BuildEventFailed
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: goto BuildEventOK
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :BuildEventFailed
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: echo *** ERROR! PostBuildStep FAILED for Motionmapper! EXE or DLL is probably running. ***
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: del /q "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\motionmapper\Debug\"motionmapper.exe
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: exit 1
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :BuildEventOK
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\motionmapper\motionmapper.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:29.24
+Time Elapsed 00:00:01.96

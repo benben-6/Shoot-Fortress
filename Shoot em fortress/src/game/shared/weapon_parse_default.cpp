@@ -1,20 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: 
-//
-//=============================================================================//
-
-#include "cbase.h"
-#include "weapon_parse.h"
-
-// memdbgon must be the last include file in a .cpp file!!!
-#include "tier0/memdbgon.h"
-
-// Default implementation for games that don't add custom data to the weapon scripts.
-FileWeaponInfo_t* CreateWeaponInfo()
-{
-	return new FileWeaponInfo_t;
-}
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:630127a9f8d0c471c50f771e2f9c02444f8c59db08cf078efe01b61430195f90
+size 494

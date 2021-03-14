@@ -1,9 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-// stdafx.cpp : source file that includes just the standard includes
-//	QC_Eyes.pch will be the pre-compiled header
-//	stdafx.obj will contain the pre-compiled type information
-
-#include "stdafx.h"
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:e228bcbaced15bb6592331370ca63a931c7dc4920f6589742e6f10f516d0f5aa
+size 287

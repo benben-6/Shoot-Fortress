@@ -1,4 +1,4 @@
-﻿Build started 10-03-2021 21:11:49.
+﻿Build started 13-03-2021 12:00:26.
      1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\mathlib\mathlib.vcxproj" on node 2 (Build target(s)).
      1>PreBuildEvent:
          if EXIST ..\lib\public\.\mathlib.lib ( for /f "delims=" %%A in ('attrib "..\lib\public\.\mathlib.lib"') do set valveTmpIsReadOnly="%%A"
@@ -21,4 +21,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:05.15
+Time Elapsed 00:00:05.72

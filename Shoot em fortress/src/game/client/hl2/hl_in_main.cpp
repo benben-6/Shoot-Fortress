@@ -1,25 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: HL2 specific input handling
-//
-// $NoKeywords: $
-//=============================================================================//
-#include "cbase.h"
-#include "kbutton.h"
-#include "input.h"
-
-// memdbgon must be the last include file in a .cpp file!!!
-#include "tier0/memdbgon.h"
-
-//-----------------------------------------------------------------------------
-// Purpose: HL Input interface
-//-----------------------------------------------------------------------------
-class CHLInput : public CInput
-{
-public:
-};
-
-static CHLInput g_Input;
-
-// Expose this interface
-IInput *input = ( IInput * )&g_Input;
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce01d631ddf54876f990f1a6f7b070cf7dc7d98cdfb735331addcf3c151a8c6f
+size 722

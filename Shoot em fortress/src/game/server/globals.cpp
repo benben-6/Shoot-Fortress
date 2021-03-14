@@ -1,27 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: 
-//
-// $NoKeywords: $
-//
-//=============================================================================//
-/*
-
-===== globals.cpp ========================================================
-
-  DLL-wide global variable definitions.
-  They're all defined here, for convenient centralization.
-  Source files that need them should "extern ..." declare each
-  variable, to better document what globals they care about.
-
-*/
-
-#include "cbase.h"
-#include "soundent.h"
-
-// memdbgon must be the last include file in a .cpp file!!!
-#include "tier0/memdbgon.h"
-
-Vector			g_vecAttackDir;
-int				g_iSkillLevel;
-bool			g_fGameOver;
+version https://git-lfs.github.com/spec/v1
+oid sha256:119eb6988ec475e7bdf7863e178111bf8e9c36b25e704787d9393eee4ac1ed8f
+size 732

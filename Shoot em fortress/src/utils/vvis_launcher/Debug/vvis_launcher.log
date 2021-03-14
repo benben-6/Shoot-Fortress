@@ -1,5 +1,5 @@
-﻿Build started 10-03-2021 20:52:38.
-     1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vvis_launcher\vvis_launcher.vcxproj" on node 5 (Build target(s)).
+﻿Build started 13-03-2021 11:11:38.
+     1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vvis_launcher\vvis_launcher.vcxproj" on node 2 (Build target(s)).
      1>PreBuildEvent:
          if EXIST ..\..\..\game\bin\.\vvis.exe for /f "delims=" %%A in ('attrib "..\..\..\game\bin\.\vvis.exe"') do set valveTmpIsReadOnly="%%A"
          set valveTmpIsReadOnlyLetter=%valveTmpIsReadOnly:~6,1%
@@ -9,19 +9,7 @@
          
          :VCEnd
        CustomBuild:
-         Compiling pointeroverride.asm
-          Assembling: C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\public\tier0\pointeroverride.asm
-         Microsoft (R) Macro Assembler Version 12.00.40629.0
-         Copyright (C) Microsoft Corporation.  All rights reserved.
-         
          Running VPC CRC Check - vvis_launcher.vpc
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\common /ZI /nologo /W4 /WX /MP /Od /Oy- /D VPC /D RAD_TELEMETRY_DISABLED /D _HAS_ITERATOR_DEBUGGING=0 /D WIN32 /D _WIN32 /D _DEBUG /D DEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _ALLOW_RUNTIME_LIBRARY_MISMATCH /D _ALLOW_ITERATOR_DEBUG_LEVEL_MISMATCH /D _ALLOW_MSC_VER_MISMATCH /D _USING_V110_SDK71_ /D _MBCS /D COMPILER_MSVC32 /D COMPILER_MSVC32 /D COMPILER_MSVC /D EXENAME=vvis /D _DLL_EXT=.dll /D DEV_BUILD /D FRAME_POINTER_OMISSION_DISABLED /D _EXTERNAL_DLL_EXT=.dll /D VPCGAMECAPS=HL2MP /D "PROJECTDIR=C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vvis_launcher" /D _DLL_EXT=.dll /D SOURCE1=1 /D VPCGAME=hl2mp /GF /Gm- /MTd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Yc"stdafx.h" /Fp"Debug/vvis_launcher.pch" /Fo".\Debug\.\/" /Fd".\Debug\.\/vc120.pdb" /Gd /TP /wd4316 /analyze- /FC /errorReport:prompt  /Gw /Zc:inline StdAfx.cpp
-         StdAfx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\common /ZI /nologo /W4 /WX /MP /Od /Oy- /D VPC /D RAD_TELEMETRY_DISABLED /D _HAS_ITERATOR_DEBUGGING=0 /D WIN32 /D _WIN32 /D _DEBUG /D DEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _ALLOW_RUNTIME_LIBRARY_MISMATCH /D _ALLOW_ITERATOR_DEBUG_LEVEL_MISMATCH /D _ALLOW_MSC_VER_MISMATCH /D _USING_V110_SDK71_ /D _MBCS /D COMPILER_MSVC32 /D COMPILER_MSVC32 /D COMPILER_MSVC /D EXENAME=vvis /D _DLL_EXT=.dll /D DEV_BUILD /D FRAME_POINTER_OMISSION_DISABLED /D _EXTERNAL_DLL_EXT=.dll /D VPCGAMECAPS=HL2MP /D "PROJECTDIR=C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vvis_launcher" /D _DLL_EXT=.dll /D SOURCE1=1 /D VPCGAME=hl2mp /GF /Gm- /MTd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Debug\.\/" /Fd".\Debug\.\/vc120.pdb" /Gd /TP /wd4316 /analyze- /FC /errorReport:prompt  /Gw /Zc:inline ..\..\public\tier0\memoverride.cpp
-         memoverride.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\common /ZI /nologo /W4 /WX /MP /Od /Oy- /D VPC /D RAD_TELEMETRY_DISABLED /D _HAS_ITERATOR_DEBUGGING=0 /D WIN32 /D _WIN32 /D _DEBUG /D DEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _ALLOW_RUNTIME_LIBRARY_MISMATCH /D _ALLOW_ITERATOR_DEBUG_LEVEL_MISMATCH /D _ALLOW_MSC_VER_MISMATCH /D _USING_V110_SDK71_ /D _MBCS /D COMPILER_MSVC32 /D COMPILER_MSVC32 /D COMPILER_MSVC /D EXENAME=vvis /D _DLL_EXT=.dll /D DEV_BUILD /D FRAME_POINTER_OMISSION_DISABLED /D _EXTERNAL_DLL_EXT=.dll /D VPCGAMECAPS=HL2MP /D "PROJECTDIR=C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vvis_launcher" /D _DLL_EXT=.dll /D SOURCE1=1 /D VPCGAME=hl2mp /GF /Gm- /MTd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Yu"stdafx.h" /Fp"Debug/vvis_launcher.pch" /Fo".\Debug\.\/" /Fd".\Debug\.\/vc120.pdb" /Gd /TP /wd4316 /analyze- /FC /errorReport:prompt  /Gw /Zc:inline vvis_launcher.cpp
-         vvis_launcher.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\.\\vvis.exe" /INCREMENTAL /NOLOGO shell32.lib user32.lib advapi32.lib gdi32.lib comdlg32.lib ole32.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmt /NODEFAULTLIB:libcpmt /NODEFAULTLIB:libcpmt1 /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\.\/vvis.pdb" /SUBSYSTEM:CONSOLE,"5.01" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:".\Debug\.\vvis.lib" /MACHINE:X86 /SAFESEH:NO /NXCOMPAT /ignore:4221 .\Debug\.\\pointeroverride.obj
          .\Debug\.\/memoverride.obj
@@ -30,6 +18,7 @@
          ..\..\lib\public\tier0.lib
          ..\..\lib\public\tier1.lib
          ..\..\lib\public\vstdlib.lib
+         LINK : .\Debug\.\\vvis.exe not found or not built by the last incremental link; performing full link
             Creating library .\Debug\.\vvis.lib and object .\Debug\.\vvis.exp
          vvis_launcher.vcxproj -> C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vvis_launcher\.\Debug\.\vvis.exe
        PostBuildEvent:
@@ -46,23 +35,8 @@
          :BuildEventOK
          
          :VCEnd
-         El sistema no puede encontrar la ruta especificada.
-         *** ERROR! PostBuildStep FAILED for Vvis_launcher! EXE or DLL is probably running. ***
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: The command "copy "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vvis_launcher\Debug\"vvis.exe ..\..\..\game\bin\.\vvis.exe >nul
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: if ERRORLEVEL 1 goto BuildEventFailed
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: if exist "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vvis_launcher\Debug\"vvis.map copy "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vvis_launcher\Debug\"vvis.map ..\..\..\game\bin\.\vvis.map >nul
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: copy "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vvis_launcher\Debug\"vvis.pdb ..\..\..\game\bin\.\vvis.pdb >nul
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: if ERRORLEVEL 1 goto BuildEventFailed
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: goto BuildEventOK
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :BuildEventFailed
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: echo *** ERROR! PostBuildStep FAILED for Vvis_launcher! EXE or DLL is probably running. ***
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: del /q "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vvis_launcher\Debug\"vvis.exe
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: exit 1
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :BuildEventOK
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: 
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :VCEnd" exited with code 1.
-     1>Done Building Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vvis_launcher\vvis_launcher.vcxproj" (Build target(s)) -- FAILED.
+     1>Done Building Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\vvis_launcher\vvis_launcher.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:07.20
+Time Elapsed 00:00:06.10

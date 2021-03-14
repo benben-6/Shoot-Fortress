@@ -1,9 +1,3 @@
-// stdafx.cpp : source file that includes just the standard includes
-//	SimpleCC.pch will be the pre-compiled header
-//	stdafx.obj will contain the pre-compiled type information
-//Copyright (c) Microsoft Corporation. All rights reserved.
-
-#include "stdafx.h"
-
-// TODO: reference any additional headers you need in STDAFX.H
-// and not in this file
+version https://git-lfs.github.com/spec/v1
+oid sha256:4366deed2b357641e37064a2f83a39327a5bb162970602083f634e9396d24613
+size 347

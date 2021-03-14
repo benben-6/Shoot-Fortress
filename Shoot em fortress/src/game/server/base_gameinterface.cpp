@@ -1,27 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: 
-//
-//=============================================================================//
-
-#include "cbase.h"
-#include "gameinterface.h"
-#include "mapentities.h"
-
-// memdbgon must be the last include file in a .cpp file!!!
-#include "tier0/memdbgon.h"
-
-void CServerGameClients::GetPlayerLimits( int& minplayers, int& maxplayers, int &defaultMaxPlayers ) const
-{
-	minplayers = defaultMaxPlayers = 1; 
-	maxplayers = MAX_PLAYERS;
-}
-
-
-// -------------------------------------------------------------------------------------------- //
-// Mod-specific CServerGameDLL implementation.
-// -------------------------------------------------------------------------------------------- //
-
-void CServerGameDLL::LevelInit_ParseAllEntities( const char *pMapEntities )
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:615a4f73a1cc182e298ace993f49bbafbbe968dff69b1ac6cf55e453e167ea2c
+size 871

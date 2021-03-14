@@ -1,29 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose:
-//
-//=============================================================================//
-
-#include "cbase.h"
-#include "weapon_proficiency.h"
-
-// memdbgon must be the last include file in a .cpp file!!!
-#include "tier0/memdbgon.h"
-
-static const char *g_ProficiencyNames[] = 
-{
-	"Poor",
-	"Average",
-	"Good",
-	"Very Good",
-	"Perfect"
-};
-
-const char *GetWeaponProficiencyName( WeaponProficiency_t proficiency )
-{
-	COMPILE_TIME_ASSERT( ARRAYSIZE(g_ProficiencyNames) == WEAPON_PROFICIENCY_PERFECT + 1 ); // Hey, update that there table!
-
-	if ( proficiency < 0 || proficiency > WEAPON_PROFICIENCY_PERFECT )
-		return "<<Invalid>>";
-	return g_ProficiencyNames[proficiency];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ebf2b86444e4e02a84d8b13e4b741a89df592c7d7345b89639ca5be33217c6d
+size 784

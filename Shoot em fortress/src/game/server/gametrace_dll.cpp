@@ -1,33 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: 
-//
-//=============================================================================//
-
-#include "cbase.h"
-#include "gametrace.h"
-#include "world.h"
-
-// memdbgon must be the last include file in a .cpp file!!!
-#include "tier0/memdbgon.h"
-
-bool CGameTrace::DidHitWorld() const
-{
-	return m_pEnt == GetWorldEntity();
-}
-
-
-bool CGameTrace::DidHitNonWorldEntity() const
-{
-	return m_pEnt != NULL && !DidHitWorld();
-}
-
-
-int CGameTrace::GetEntityIndex() const
-{
-	if ( m_pEnt )
-		return m_pEnt->entindex();
-	else
-		return -1;
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:350063653d87f71741d992bbf91d65c178eb248a2c52af0c0f7feadb9fe16bca
+size 643

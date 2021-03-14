@@ -1,29 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: 
-//
-//=============================================================================//
-
-#include "cbase.h"
-#include "gameinterface.h"
-#include "mapentities.h"
-
-
-// -------------------------------------------------------------------------------------------- //
-// Mod-specific CServerGameClients implementation.
-// -------------------------------------------------------------------------------------------- //
-
-void CServerGameClients::GetPlayerLimits( int& minplayers, int& maxplayers, int &defaultMaxPlayers ) const
-{
-	minplayers = 2;  // Force multiplayer.
-	maxplayers = MAX_PLAYERS;
-	defaultMaxPlayers = 32;
-}
-
-// -------------------------------------------------------------------------------------------- //
-// Mod-specific CServerGameDLL implementation.
-// -------------------------------------------------------------------------------------------- //
-
-void CServerGameDLL::LevelInit_ParseAllEntities( const char *pMapEntities )
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6fcf9fddb2946fab576167bc0c2e02e4fb2ca3151f04faebcd90680409b45806
+size 1061

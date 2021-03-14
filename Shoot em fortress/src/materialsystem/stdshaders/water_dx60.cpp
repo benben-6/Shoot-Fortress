@@ -1,15 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: 
-//
-// $NoKeywords: $
-//=============================================================================//
-
-#include "shaderlib/cshader.h"
-
-// memdbgon must be the last include file in a .cpp file!!!
-#include "tier0/memdbgon.h"
-
-// NOTE: Water DX60 is located in LightmappedGeneric_DX6 so it can inherit
-DEFINE_FALLBACK_SHADER( Water, Water_DX60 )
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d4be58eb924797d81add8f389f227e6434eeb96aac083326c5656df722e3c98
+size 453

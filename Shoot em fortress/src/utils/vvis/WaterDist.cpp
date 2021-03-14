@@ -1,30 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: 
-//
-//=============================================================================//
-
-#include "bsplib.h"
-
-// input:
-// from bsplib.h:
-//		numleafs
-//		dleafs
-
-void EmitDistanceToWaterInfo( void )
-{
-	int leafID;
-	for( leafID = 0; leafID < numleafs; leafID++ )
-	{
-		dleaf_t *pLeaf = &dleafs[leafID];
-		if( pLeaf->leafWaterDataID == -1 )
-		{
-			// FIXME: set the distance to water to infinity here just in case.
-			continue;
-		}
-
-		// Get the vis set for this leaf.
-		
-	}
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:768a7b552a5e7abae14d56e17d9021b23ff163ff150caa0a0d44dbbbfb59471a
+size 596

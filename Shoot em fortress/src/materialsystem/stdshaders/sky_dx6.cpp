@@ -1,15 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: Teeth renderer
-//
-// $Header: $
-// $NoKeywords: $
-//=============================================================================//
-#include "shaderlib/cshader.h"
-
-// memdbgon must be the last include file in a .cpp file!!!
-#include "tier0/memdbgon.h"
-
-DEFINE_FALLBACK_SHADER( Sky, UnlitGeneric )
-DEFINE_FALLBACK_SHADER( Sky_dx6, UnlitGeneric )
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ba398b383c5df327d749bf7d4b24e127697c543b5139582a63da32cb2bfdcad
+size 453

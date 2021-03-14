@@ -1,4 +1,4 @@
-﻿Build started 10-03-2021 21:11:58.
+﻿Build started 13-03-2021 12:00:35.
      1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\game\server\server_hl2mp.vcxproj" on node 3 (Build target(s)).
      1>PreBuildEvent:
          if EXIST ..\..\..\game\mod_hl2mp\bin\.\server.dll for /f "delims=" %%A in ('attrib "..\..\..\game\mod_hl2mp\bin\.\server.dll"') do set valveTmpIsReadOnly="%%A"
@@ -91,4 +91,4 @@
 
 Build FAILED.
 
-Time Elapsed 00:00:04.90
+Time Elapsed 00:00:13.40

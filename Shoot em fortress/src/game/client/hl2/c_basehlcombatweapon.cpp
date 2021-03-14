@@ -1,21 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: 
-//
-//=============================================================================//
-
-#include "cbase.h"
-#include "c_basehlcombatweapon.h"
-#include "igamemovement.h"
-
-// memdbgon must be the last include file in a .cpp file!!!
-#include "tier0/memdbgon.h"
-
-IMPLEMENT_CLIENTCLASS_DT( C_HLMachineGun, DT_HLMachineGun, CHLMachineGun )
-END_RECV_TABLE()
-
-IMPLEMENT_CLIENTCLASS_DT( C_HLSelectFireMachineGun, DT_HLSelectFireMachineGun, CHLSelectFireMachineGun )
-END_RECV_TABLE()
-
-IMPLEMENT_CLIENTCLASS_DT( C_BaseHLBludgeonWeapon, DT_BaseHLBludgeonWeapon, CBaseHLBludgeonWeapon )
-END_RECV_TABLE()
+version https://git-lfs.github.com/spec/v1
+oid sha256:a52acc49ba25d09272d58e967985be13b86403fb967acc8a5846c559a43423cd
+size 700

@@ -1,0 +1,2 @@
+games.sdf filter=lfs diff=lfs merge=lfs -text
+everything.sdf filter=lfs diff=lfs merge=lfs -text

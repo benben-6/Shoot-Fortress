@@ -1,5 +1,5 @@
-﻿Build started 10-03-2021 20:53:51.
-     1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\serverplugin_sample\serverplugin_empty.vcxproj" on node 2 (Build target(s)).
+﻿Build started 13-03-2021 11:11:16.
+     1>Project "C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\serverplugin_sample\serverplugin_empty.vcxproj" on node 4 (Build target(s)).
      1>PreBuildEvent:
          if EXIST ..\..\..\game\bin\.\serverplugin_empty.dll for /f "delims=" %%A in ('attrib "..\..\..\game\bin\.\serverplugin_empty.dll"') do set valveTmpIsReadOnly="%%A"
          set valveTmpIsReadOnlyLetter=%valveTmpIsReadOnly:~6,1%
@@ -9,22 +9,13 @@
          
          :VCEnd
        CustomBuild:
-         Compiling pointeroverride.asm
-          Assembling: C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\public\tier0\pointeroverride.asm
-         Microsoft (R) Macro Assembler Version 12.00.40629.0
-         Copyright (C) Microsoft Corporation.  All rights reserved.
-         
          Running VPC CRC Check - serverplugin_empty.vpc
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\..\game\server /I..\..\game\shared /ZI /nologo /W4 /WX /MP /Od /Oy- /D VPC /D RAD_TELEMETRY_DISABLED /D _HAS_ITERATOR_DEBUGGING=0 /D WIN32 /D _WIN32 /D _DEBUG /D DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _ALLOW_RUNTIME_LIBRARY_MISMATCH /D _ALLOW_ITERATOR_DEBUG_LEVEL_MISMATCH /D _ALLOW_MSC_VER_MISMATCH /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D COMPILER_MSVC32 /D COMPILER_MSVC32 /D COMPILER_MSVC /D _DLL_EXT=.dll /D DLLNAME=serverplugin_empty /D BINK_VIDEO /D AVI_VIDEO /D WMV_VIDEO /D DEV_BUILD /D FRAME_POINTER_OMISSION_DISABLED /D serverplugin_emptyONLY /D _MBCS /D _EXTERNAL_DLL_EXT=.dll /D VPCGAMECAPS=HL2MP /D "PROJECTDIR=C:\Users\benbl\OneDrive\Documentos\GitHub\Shoot-Fortress\Shoot em fortress\src\utils\serverplugin_sample" /D _DLL_EXT=.dll /D VPCGAME=hl2mp /D SOURCE1=1 /GF /Gm- /MTd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo".\Debug\.\/" /Fd".\Debug\.\/vc120.pdb" /Gd /TP /wd4316 /analyze- /FC /errorReport:prompt /Zm200 /Gw /Zc:inline ..\..\public\tier0\memoverride.cpp serverplugin_bot.cpp serverplugin_empty.cpp
-         memoverride.cpp
-         serverplugin_bot.cpp
-         serverplugin_empty.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\.\\serverplugin_empty.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\lib\common\. /LIBPATH:..\..\lib\public\. shell32.lib user32.lib advapi32.lib gdi32.lib comdlg32.lib ole32.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmt /NODEFAULTLIB:libcpmt /NODEFAULTLIB:libcpmt1 /MANIFEST:NO /DEBUG /PDB:".\Debug\.\/serverplugin_empty.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:".\Debug\.\serverplugin_empty.lib" /MACHINE:X86 /SAFESEH:NO  /ignore:4221 /DLL .\Debug\.\\pointeroverride.obj
          .\Debug\.\/memoverride.obj
          .\Debug\.\/serverplugin_bot.obj
          .\Debug\.\/serverplugin_empty.obj
+         "..\..\lib\public\discord-rpc.lib"
          ..\..\lib\public\mathlib.lib
          ..\..\lib\public\tier0.lib
          ..\..\lib\public\tier1.lib
@@ -53,4 +44,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:18.41
+Time Elapsed 00:00:10.93

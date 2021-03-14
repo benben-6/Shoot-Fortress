@@ -1,20 +1,3 @@
-//========= Copyright Valve Corporation, All rights reserved. ============//
-//
-// Purpose: 
-//
-// $NoKeywords: $
-//
-//=============================================================================//
-#include "cbase.h"
-
-PrototypeEffectLink *g_pPrototypeEffects = 0;
-
-PrototypeEffectLink::PrototypeEffectLink(PrototypeEffectCreateFn fn, const char *pName)
-{
-	m_CreateFn = fn;
-	m_pEffectName = pName;
-	m_pNext = g_pPrototypeEffects;
-	g_pPrototypeEffects = this;
-}
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:32715c54ef35360cdf678580dadd8c252f3aeb1ac91dee073ac03721ca62033d
+size 483
