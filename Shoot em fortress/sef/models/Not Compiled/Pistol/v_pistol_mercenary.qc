@@ -26,7 +26,7 @@ $contents "solid"
 
 $illumposition 0 0 0 "illumpos"
 
-$cdmaterials "models\weapons\v_pistol\"
+$cdmaterials "models\weapons\v_pistol_deag\"
 $cdmaterials ""
 
 $attachment "muzzle" "weapon_bone" 0 5.96 9.19 rotate -90 0 0
@@ -80,7 +80,7 @@ $definebone "bip_pinky_2_R" "bip_pinky_1_R" -0.000012 1.231838 0.000062 -0.00084
 $definebone "Clip" "bip_hand_R" 36.206337 19.174175 17.784458 10.266816 -25.9597 -159.93892 0 0 0 0 0 0
 $definebone "weapon_bone" "bip_hand_R" 36.946529 23.237089 11.639696 10.267046 -25.960328 -159.938073 0 0 0 0 0 0
 $definebone "slide" "weapon_bone" -0.025854 5.725633 3.35559 0.000001 0.000127 -0.00023 0 0 0 0 0 0
-$definebone "hammer" "weapon_bone" 0.000118 5.178932 -1.64291 0.000001 0.000127 -0.00023 0 0 0 0 0 0
+$definebone "hammer" "weapon_bone" 0.013221 5.172030 -4.263859  0.000002 0.000000 0.000016 0 0 0 0 0 0
 $definebone "ejector" "weapon_bone" -0.015799 5.720336 1.355623 0.000001 0.000127 -0.00023 0 0 0 0 0 0
 $definebone "Clip_Empty" "bip_hand_R" 32.235302 21.123676 18.580151 10.266474 -25.959083 -159.938551 0 0 0 0 0 0
 $definebone "bip_wrist_R" "bip_lowerArm_R" -0.000015 11.59272 -0.013124 0.000055 -0.00029 -0.710129 0 0 0 0 0 0
