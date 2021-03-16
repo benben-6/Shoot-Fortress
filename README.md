@@ -2,7 +2,7 @@
 
 
 # Shoot-Fortress
-A source engine rail shooter, heavily inspired by time crisis, the house of the dead and dead strom pirates.
+A source engine rail shooter, heavily inspired by time crisis, the house of the dead and dead storm pirates.
 
 
 ## Features
