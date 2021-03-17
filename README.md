@@ -5,16 +5,12 @@
 A source engine rail shooter, heavily inspired by time crisis, the house of the dead and dead storm pirates.
 
 
-## Features
-
-- Having a 4 player online co-op   
-
-- 7 Weapons
-
-- Easy tools for map-makers.
+## 4 Player Co-op
 
 ## Release date
 - Late 2021
 
 ## Progress
-- 10%
+- 17%
+# Looking for People
+- Dm me at my twitter @6Benben or my discord benben6#0505
