@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons/v_models/v_pistol_mercenary.mdl"
+$modelname "weapons/v_models/v_pistol_deagle.mdl"
 
 $bodygroup "swoo"
 {
-	studio "v_pistol_mercenary_pistol.smd"
+	studio "v_pistol_mercenary_deagle.smd"
 }
 $bodygroup "was"
 {
@@ -26,7 +26,7 @@ $contents "solid"
 
 $illumposition 0 0 0 "illumpos"
 
-$cdmaterials "models\weapons\v_pistol_deag\"
+$cdmaterials "models\weapons\v_pistol_heavy\Deagle.vtf"
 $cdmaterials ""
 
 $attachment "muzzle" "weapon_bone" 0 5.96 9.19 rotate -90 0 0
