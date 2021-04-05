@@ -1,0 +1,2 @@
+//more stuff
+ITexture *GetScopeTexture();
