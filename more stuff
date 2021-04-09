@@ -1,3 +1,0 @@
-//I am the pizza guy, did you knew that?
-//Release the scope render target too
-s_pScopeTexture.Shutdown();
