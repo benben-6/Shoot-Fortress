@@ -500,7 +500,6 @@ $Project
 		$File	"$SRCDIR\game\shared\mp_shareddefs.cpp"
 		$File	"$SRCDIR\game\client\c_vote_controller.h"
 		$File	"$SRCDIR\game\client\c_vote_controller.cpp"
-		$File   "$SRCDIR\game\client\hud_hull.cpp"
 		//Haptics
 		$File	"$SRCDIR\public\haptics\haptic_msgs.cpp"	[!$X360]
 		$File	"$SRCDIR\public\haptics\haptic_utils.cpp"	[$WIN32&&!$X360]
@@ -769,7 +768,6 @@ $Project
 		$File	"history_resource.h"
 		$File	"hltvcamera.h"
 		$File	"hud.h"
-		$File   "hud_hull.h"
 		$File	"hud_basechat.h"
 		$File	"hud_basetimer.h"
 		$File	"hud_bitmapnumericdisplay.h"

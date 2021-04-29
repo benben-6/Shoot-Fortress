@@ -120,9 +120,6 @@ public:
 	void CleanUpMap();
 	void CheckRestartGame();
 	void RestartGame();
-#ifndef CLIENT_DLL 
-	void InitDefaultAIRelationships(void);
-#endif
 	
 #ifndef CLIENT_DLL
 	virtual Vector VecItemRespawnSpot( CItem *pItem );
